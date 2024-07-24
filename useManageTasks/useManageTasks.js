@@ -6,7 +6,7 @@ import {
     initialState, 
     initTasks, 
     TASKS_LABEL 
-} from '../07-useReducer/tasksReducer'
+} from './tasksReducer'
 
 export const useManageTasks = () => {
     const [tasks, dispatch] = useReducer(tasksReducer, initialState, initTasks)
